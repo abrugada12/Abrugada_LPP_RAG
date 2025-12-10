@@ -71,7 +71,7 @@ class RAGDatabase:
             # Note: We cast the parameter to FLOAT[384] to match the embedding dimension
             results = conn.execute(f"""
                 SELECT text, array_cosine_similarity(embedding, ?::FLOAT[{EMBEDDING_DIMENSION}]) as similarity
-                FROM chr_rag_documents #CHANGE THIS
+                FROM Harry_rag_documents
                 ORDER BY similarity DESC
                 LIMIT ?
             """, [query_embedding, top_k]).fetchall()
