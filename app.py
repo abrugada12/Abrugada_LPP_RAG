@@ -239,11 +239,11 @@ if prompt := st.chat_input("Ask a question about Harry Potter..."):
 # TO DO: Example questions in an expander
 with st.expander("💡 Example Questions"):
     examples = [
-        "Give me an outline of the Bible Project's video of the book of Chronicles.",
-        "What are the main themes in Chronicles?",
-        "How does Chronicles portray King David?",
-        "What is the structure of 1 Chronicles?",
-        "How does Chronicles differ from Kings?"
+        "Who are the main characters in Harry Potter?",
+        "What is Hogwarts, and why is it important?",
+        "Can you explain the magic system in the Wizarding World?",
+        "What happened in the Battle of Hogwarts?",
+        "What are the main magical creatures in Harry Potter?"
     ]
     
     for example in examples:
