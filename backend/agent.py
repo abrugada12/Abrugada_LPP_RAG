@@ -82,7 +82,7 @@ class RAGAgent:
         # TO DO: Create the task
         task = Task(description = "Answer basic questions about the Harry Potter universe to help newcomers understand key characters, magical concepts, important locations, and major events.",
                     agent = agent, 
-                    expected_output = "The agent should respond with simple, clear, and engaging explanations tailored to beginners. The output should provide clear definitions of key characters, places, magical concepts, and events, while encouraging the user to explore more about the Wizarding World. Responses should be concise but comprehensive enough for newcomers to grasp. The tone should be friendly and inviting. The agent should ask follow-up questions or recommend additional topics after answering the user's query.")
+                    expected_output = "The agent should respond with simple, clear, and engaging explanations tailored to beginners.")
     
         # TO DO: Create the Crew and run it
         crew = Crew(agents = [agent],
