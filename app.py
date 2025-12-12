@@ -241,10 +241,10 @@ if prompt := st.chat_input("Ask a question about Harry Potter..."):
 with st.expander("💡 Example Questions"):
     examples = [
         "Who are the main characters in Harry Potter?",
-        "What is Hogwarts, and why is it important?",
-        "Can you explain the magic system in the Wizarding World?",
-        "What happened in the Battle of Hogwarts?",
-        "What are the main magical creatures in Harry Potter?"
+        "What is Hogwarts School of Witchcraft and Wizardry?",
+        "What are magical creatures in the Harry Potter series?",
+        "What are spells and how do wizards use them?",
+        "What is the difference between the books and the movies?"
     ]
     
     for example in examples:
