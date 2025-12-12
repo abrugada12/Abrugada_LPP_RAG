@@ -19,7 +19,7 @@ import config
 # -----------------------------------------------------------------------------
 st.set_page_config(
     page_title="A Beginner’s Guide to the Wizarding World",
-    page_icon="🧙🏼‍♂️",
+    page_icon="📖",
     layout="wide"
 )
 
@@ -119,7 +119,7 @@ with st.sidebar:
 # -----------------------------------------------------------------------------
 # Main App Header
 # -----------------------------------------------------------------------------
-st.title("📖 A Beginner’s Guide to the Wizarding World")
+st.title("📖🧙🏼‍♂️🪄 A Beginner’s Guide to the Wizarding World")
 st.markdown("Welcome to your personal Harry Potter guide! Ask questions and get AI-powered answers that will guide you through the magical world, from characters and spells to key events and locations.")
 
 # -----------------------------------------------------------------------------
