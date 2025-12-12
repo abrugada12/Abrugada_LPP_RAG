@@ -18,7 +18,7 @@ import config
 # Page Configuration (must be first Streamlit command)
 # -----------------------------------------------------------------------------
 st.set_page_config(
-    page_title="TOPIC RAG Assistant",
+    page_title="A Beginner’s Guide to the Wizarding World",
     page_icon="📖",
     layout="wide"
 )
