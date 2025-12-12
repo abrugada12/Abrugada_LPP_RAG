@@ -240,6 +240,7 @@ if prompt := st.chat_input("Ask a question about Harry Potter..."):
 # TO DO: Example questions in an expander
 with st.expander("💡 Example Questions"):
     examples = [
+        "What is Hogwarts School of Witchcraft and Wizardry?",
         "Who are the main characters in Harry Potter?",
         "What is Hogwarts School of Witchcraft and Wizardry?",
         "What are magical creatures in the Harry Potter series?",
