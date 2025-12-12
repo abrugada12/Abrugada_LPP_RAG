@@ -70,7 +70,7 @@ class RAGAgent:
 
         agent = Agent(
             role='Harry Potter Expert and Guide',
-            goal='Answer any questions about the Harry Potter universe with relevant and insightful information.',
+            goal='Answer any questions about the Harry Potter.',
             backstory='You are an expert in the magical world of Harry Potter, with deep knowledge of characters, spells, magical creatures, events, and locations. You provide detailed, accurate, and engaging answers based on your comprehensive understanding of the books and films.',
             tools=[query_tool],
             llm=llm,
