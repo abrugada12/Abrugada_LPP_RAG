@@ -80,7 +80,7 @@ class RAGAgent:
         )
         
         # TO DO: Create the task
-        task = Task(description = "Answer any question about the Harry Potter universe. The agent will provide relevant and insightful answers based on the content of the database, whether it's about characters, spells, locations, or anything about the series.",
+        task = Task(description = question,
                     agent = agent, 
                     expected_output = "The agent should respond with simple, clear, and engaging explanations tailored to beginners.")
     
