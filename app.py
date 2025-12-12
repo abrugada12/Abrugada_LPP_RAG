@@ -120,7 +120,7 @@ with st.sidebar:
 # Main App Header
 # -----------------------------------------------------------------------------
 st.title("📖 A Beginner’s Guide to the Wizarding World")
-st.markdown("Ask questions about Harry Potter and get AI-powered answers based on curated content.")
+st.markdown("Welcome to your personal Harry Potter guide! Ask questions and get AI-powered answers that will guide you through the magical world, from characters and spells to key events and locations.")
 
 # -----------------------------------------------------------------------------
 # Database Connection
