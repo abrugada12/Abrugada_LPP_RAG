@@ -19,7 +19,7 @@ import config
 # -----------------------------------------------------------------------------
 st.set_page_config(
     page_title="A Beginner’s Guide to the Wizarding World",
-    page_icon="📖🧙🏼‍♂️🪄",
+    page_icon="🧙🏼‍♂️🪄",
     layout="wide"
 )
 
