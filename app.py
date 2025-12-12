@@ -119,7 +119,7 @@ with st.sidebar:
 # -----------------------------------------------------------------------------
 # Main App Header
 # -----------------------------------------------------------------------------
-st.title("📖 Harry Potter RAG Assistant")
+st.title("📖 A Beginner’s Guide to the Wizarding World")
 st.markdown("Ask questions about Harry Potter and get AI-powered answers based on curated content.")
 
 # -----------------------------------------------------------------------------
