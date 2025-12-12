@@ -69,9 +69,9 @@ class RAGAgent:
         
 
         agent = Agent(
-            role='Harry Potter Guide for New Fans',
-            goal='Introduce newcomers to the Harry Potter universe, helping them understand major characters, locations, magical concepts, and key events in the series.',
-            backstory='You are an expert who helps newcomers to the Wizarding World by explaining the basics of the Harry Potter universe. You provide simple, easy-to-understand introductions to the characters, magical creatures, spells, and key events in the series, encouraging fans to explore further.',
+            role='Harry Potter Expert and Guide',
+            goal='Answer any questions about the Harry Potter universe with relevant and insightful information.',
+            backstory='You are an expert in the magical world of Harry Potter, with deep knowledge of characters, spells, magical creatures, events, and locations. You provide detailed, accurate, and engaging answers based on your comprehensive understanding of the books and films.',
             tools=[query_tool],
             llm=llm,
             verbose=True, # Shows what the agent is doing
@@ -80,7 +80,7 @@ class RAGAgent:
         )
         
         # TO DO: Create the task
-        task = Task(description = "Answer questions about Harry Potter using the database.",
+        task = Task(description = "Answer any question about the Harry Potter universe. The agent will provide relevant and insightful answers based on the content of the database, whether it's about characters, spells, locations, or anything about the series.",
                     agent = agent, 
                     expected_output = "The agent should respond with simple, clear, and engaging explanations tailored to beginners.")
     
