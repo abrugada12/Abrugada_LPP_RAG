@@ -21,3 +21,10 @@ Many people who are curious about the series may not know where to begin or whic
 **Architecture Overview (RAG Pipeline)**
 
 This assistant is built using a Retrieval-Augmented Generation (RAG) architecture. The system combines document retrieval with a language model to generate responses grounded in the project’s document collection.
+
+Pipeline Overview:
+1. Document Collection: A curated set of documents related to the Harry Potter universe is collected and preprocessed.
+2. Vector Database: The documents are embedded and stored in a DuckDB-based vector database. This allows the system to retrieve relevant passages based on a user’s query.
+3. Retrieval Step: When a user submits a question, the system retrieves the most relevant document chunks from the vector database.
+4. Generation Step: The retrieved content is passed to a language model, which generates a response grounded in those sources.
+5. Streamlit Deployment: The assistant is deployed using Streamlit, allowing users to interact with the system through a simple web interface.
