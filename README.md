@@ -70,6 +70,10 @@ Explicitly defining the agent’s role and goal helps align the system’s behav
 
 ---
 
-**Installation and setup instructions.
-Link to your Streamlit deployment.**
+Installation and setup instructions.
+
+**Link to Streamlit Deployment**
+
+You can access the live version of the assistant at the following link:
+[Live Harry Potter Assistant](https://abrugadalpprag-fw7ym4fsutsyjejevsvvab.streamlit.app/) 
 
