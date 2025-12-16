@@ -72,6 +72,7 @@ Explicitly defining the agent’s role and goal helps align the system’s behav
 
 **Installation and setup instructions**
 To run this project locally, follow these steps:
+
 1)_ Clone the repository:_
    
    git clone <YOUR_GITHUB_REPOSITORY_URL>
