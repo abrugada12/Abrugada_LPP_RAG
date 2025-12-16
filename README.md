@@ -10,8 +10,7 @@ The goal of this project is to make information about the Harry Potter series mo
 
 The assistant is deployed as an interactive Streamlit application.
 
-...
-
+---
 
 **Domain Overview and Problem Statement**
 
@@ -19,7 +18,7 @@ The Harry Potter universe includes seven books, eight films, and a large number 
 
 Many people who are curious about the series may not know where to begin or which details are most important. This project addresses that problem by creating an assistant that focuses on foundational knowledge, such as major characters, key events, and central themes, while presenting information in a clear and beginner-friendly way.
 
-...
+---
 
 **Architecture Overview (RAG Pipeline)**
 ![Architecture Overview](backend/PIPELINE.png)
@@ -31,7 +30,8 @@ _Pipeline Overview:_
 3. Retrieval Step: When a user submits a question, the system retrieves the most relevant document chunks from the vector database.
 4. Generation Step: The retrieved content is passed to a language model, which generates a response grounded in those sources.
 5. Streamlit Deployment: The assistant is deployed using Streamlit, allowing users to interact with the system through a simple web interface.
-...
+
+---
 
 **Document Collection Summary**
 
@@ -56,7 +56,7 @@ _Why This Combination?_
 
 Together, these documents allow the assistant to answer a wide range of beginner-focused questions.
 
-...
+---
 
 **Agent Configuration**
 
@@ -68,7 +68,7 @@ The assistant is configured with a defined role, goal, and backstory to guide ho
 
 Explicitly defining the agent’s role and goal helps align the system’s behavior with the project’s objective of introducing foundational Harry Potter concepts. The backstory reinforces an explanatory style while remaining consistent with the use of retrieved sources.
 
-...
+---
 
 **Installation and setup instructions.
 Link to your Streamlit deployment.**
