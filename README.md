@@ -62,4 +62,6 @@ The assistant is configured with a defined role, goal, and backstory to guide ho
 
 Explicitly defining the agent’s role and goal helps align the system’s behavior with the project’s objective of introducing foundational Harry Potter concepts. The backstory reinforces an explanatory style while remaining consistent with the use of retrieved sources.
 
+**Installation and setup instructions.
+Link to your Streamlit deployment.**
 
