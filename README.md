@@ -45,3 +45,11 @@ _YouTube Transcripts:_
 
 YouTube transcripts capture discussions, reviews, and analyses from fans and commentators. These sources introduce informal perspectives, rankings, and opinions, which add variety and depth to the assistant’s responses.
 
+_Why This Combination?_
+* PDFs provide structured and reliable summaries
+* HTML files offer engaging and approachable explanations
+* YouTube transcripts add diverse viewpoints and informal insights
+
+Together, these documents allow the assistant to answer a wide range of beginner-focused questions.
+
+
