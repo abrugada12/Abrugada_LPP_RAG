@@ -93,8 +93,9 @@ To run this project locally, follow these steps:
    streamlit run app.py
 
 11) Enter your OpenAI API Key
-    
-   Once the app is up and running, enter the OpenAI API Key and confirm the database connection
+
+Once the app is up and running, enter the OpenAI API Key and confirm the database connection
+
 ---
 
 **Link to Streamlit Deployment**
