@@ -1,4 +1,4 @@
-# A Beginner’s Guide to the Wizarding World
+## A Beginner’s Guide to the Wizarding World
 
 Harry Potter Retrieval-Augmented Generation (RAG) Assistant
 
