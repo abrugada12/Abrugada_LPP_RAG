@@ -52,4 +52,14 @@ _Why This Combination?_
 
 Together, these documents allow the assistant to answer a wide range of beginner-focused questions.
 
+**Agent Configuration**
+
+The assistant is configured with a defined role, goal, and backstory to guide how it responds to user questions.
+
+* _Role:_ The agent acts as an educational guide for users who are new to the Harry Potter universe. This role was chosen to encourage explanatory responses that focus on clarity rather than assuming prior knowledge.
+* _Goal:_ The agent’s goal is to answer questions accurately using retrieved documents from the project’s knowledge base. Defining this goal helps prioritize grounded responses over speculative or unsupported information.
+* _Backstory:_ The agent is framed as a knowledgeable but approachable guide. This backstory supports a beginner-friendly tone and helps the agent present information in a structured and accessible way.
+
+Explicitly defining the agent’s role and goal helps align the system’s behavior with the project’s objective of introducing foundational Harry Potter concepts. The backstory reinforces an explanatory style while remaining consistent with the use of retrieved sources.
+
 
