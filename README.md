@@ -78,23 +78,23 @@ _1) Clone the repository:_
    
    git clone <YOUR_GITHUB_REPOSITORY_URL>
 
-3) Navigate to the project directory:
+_2) Navigate to the project directory:_
    
    cd <YOUR_REPOSITORY_NAME>
 
-5) Install the required dependencies:
+_3) Install the required dependencies:_
    
    pip install -r requirements.txt
 
-7) Ensure the database is available:
+_4) Ensure the database is available:_
    
    backend/Harry (8).duckdb
 
-9) Run the application:
+_5) Run the application:_
     
    streamlit run app.py
 
-11) Enter your OpenAI API Key
+_6) Enter your OpenAI API Key_
 
 Once the app is up and running, enter the OpenAI API Key and confirm the database connection
 
