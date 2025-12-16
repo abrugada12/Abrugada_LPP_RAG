@@ -70,7 +70,26 @@ Explicitly defining the agent’s role and goal helps align the system’s behav
 
 ---
 
-Installation and setup instructions.
+**Installation and setup instructions**
+To run this project locally, follow these steps:
+1) Clone the repository:
+   git clone <YOUR_GITHUB_REPOSITORY_URL>
+
+2) Navigate to the project directory:
+   cd <YOUR_REPOSITORY_NAME>
+
+3) Install the required dependencies:
+   pip install -r requirements.txt
+
+4) Ensure the database is available:
+   backend/Harry (8).duckdb
+
+5) Run the application:
+   streamlit run app.py
+
+6) Enter your OpenAI API Key
+   Once the app is up and running, enter the OpenAI API Key and confirm the database connection
+---
 
 **Link to Streamlit Deployment**
 
