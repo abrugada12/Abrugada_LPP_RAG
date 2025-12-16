@@ -10,7 +10,7 @@ The goal of this project is to make information about the Harry Potter series mo
 
 The assistant is deployed as an interactive Streamlit application.
 
----
+----
 
 **Domain Overview and Problem Statement**
 
