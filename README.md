@@ -19,7 +19,7 @@ Many people who are curious about the series may not know where to begin or whic
 
 
 **Architecture Overview (RAG Pipeline)**
-
+![Architecture Overview](backend/PIPELINE.png)
 This assistant is built using a Retrieval-Augmented Generation (RAG) architecture. The system combines document retrieval with a language model to generate responses grounded in the project’s document collection.
 
 _Pipeline Overview:_
